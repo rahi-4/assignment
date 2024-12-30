@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Section  start*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff9ff;
+    padding: 20px;
+    height: 70px;
+
+}
+
+    .navbar-center a{
+   color: #000000;
+   text-decoration: none;
+padding: 11px 28px;
+
+
+}
+
+.navbar-right .button1 {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 11px 28px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.navbar-right .button2 {
+    padding: 11px 28px;
+    background-color: #000000;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-right img {
+    width: 30px;
+    height: auto;
+}
+/* navbar end*/
+
+/* Background Image Section */
+.background-img img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+/* Form Container Section */
+.div-center {
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+    margin: 150px auto;
+    width: 500px;
+    padding: 40px 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div-center h1 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.div-center{
+    left: 25%;
+}
+
+.div-center form select {
+   
+    border-radius: 5px;
+    border: none;
+    background-color: #ECECEC;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+/* Button Section */
+.button .button-long {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: #ececec;
+    cursor: pointer;
+}
+
+.button .button-short {
+    background-color: #00EBC7;
+    padding: 10px 28px;
+    border: none;
+    border-radius: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.a1{
+color: white;
+margin-left: 40%;
+border: 1px solid #ffffff;
+padding: 11px 28px;
+border-radius: 30px;
+}
+/*  back end*/
+/* favourite start */
+.favourite{
+    width: 100%;
+    height: 300px;
+    background-color: #FDE24F;
+   .favourite .favourite1 &h1{
+    left:50% ;
+    position: absolute;
+   }
+ & h1{
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+& img{
+    position: relative;
+    top: 50px;
+   
+}
+}
+/* favourite end */
+
+
+/* feature start*/
+.h11{
+    text-transform: capitalize;
+    margin-left: 65px;
+}
+
+.feature{
+display: flex;
+justify-content: space-between;
+padding: 11px 38px;
+
+.feature1{
+    text-align: center;
+}
+
+
+
+.feature2{
+    text-align: center;
+}
+
+.feature3{
+    text-align: center;
+}
+
+a{
+ 
+    font-weight: 100;
+    color: #000000;
+}
+}
+.butt{
+    margin-left: 40%;
+    margin-top: 30px;
+    background-color: inherit;
+    padding: 11px 28px;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+/* feature end*/
+/* buyy srll st */
+.buy-sell{
+    
+    display: grid;
+   grid-template-columns: repeat(2, minmax(0, 1fr));
+   justify-items: center;
+   padding: 20px;
+   text-align: center;
+
+.span1{
+ 
+    border: 1px solid #000000;
+    padding: 11px 28px;
+    border-radius: 30px;
+  
+}
+ & a{
+    padding: 11px 28px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+}
+
+}
+
+.sign-buy{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #CFBAFF;
+& h1{
+   position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 30%;
+}
+& button{
+    position: absolute;
+padding: 25px 40px;
+background-color: black;
+color: white;
+text-transform: capitalize;
+border: none;
+border-radius: 20px;
+left: 40%;
+top: 70%;
+}
+
+}
+
+/* buy sell end*/
+
+/* footer st*/
+.foot{
+    
+    display: block;
+    justify-items: center;
+    align-items: center;
+    justify-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: white;
+}
+
+
+.foot .nav-foot {
+    text-transform: capitalize;
+    justify-items: center;
+    align-items: center;
+    justify-items: center;
+  justify-content: center;
+    display: inline-block;
+    padding: 40px 12px;
+    list-style: none;
+    
+}
+footer{
+    background-color:#0f0f0d ;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* footer end*/
+
+@media only screen and (max-width:768px){
+body{
+    margin: 0;
+    font-size: 14px;
+}
+.navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px;
+}
+
+.navbar-center a{
+    display: block;
+    padding: 8px 16px;
+}
+.navbar-right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.navbar-right .button1,
+.navbar-right .button2 {
+width: 100%;
+margin: 5px 0;
+text-align: center;
+}
+
+.div-center{
+    width: 90%;
+    margin: 100% auto;
+    padding: 20px 10px;
+    left: 5%;
+}
+
+.button .button-long{
+    width: 90%;
+    margin: 10px auto;
+}
+.favourite{
+    height: auto;
+    padding: 20px;
+}
+.feature{
+    flex-direction: column;
+    padding: 0;
+}
+
+.feature .feature1,
+.feature .button2,
+.feature .feature3{
+    margin: 20px 0;
+}
+.buy-sell{
+    grid-template-columns: 1fr;
+}
+
+.sign-buy{
+    height: auto;
+    padding: 20px;
+}
+
+.sign-buy h1{
+    position: static;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.sign-buy button{
+    position: static;
+    margin: 0px auto;
+    display: block;
+}
+.foot{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.foot .nav-foot{
+    display: block;
+    padding: 10px 0;
+}
+footer{
+    padding: 10px 5px;
+}
+}
+
+
